@@ -23,4 +23,3 @@
  ---
  
  ![](score_counter2.gif)
-
