@@ -20,5 +20,7 @@
  
  ![](score_counter1.gif)
  
+ ---
+ 
  ![](score_counter2.gif)
 
