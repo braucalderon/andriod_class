@@ -13,7 +13,7 @@
  ## `Challenges`
  <ul>
   <li>First app, so everything was a challenge</li>
-  <li>most challenging was to how to get a value from the seekbar</li>
+  <li>Most challenging was to how to get a value from the seekbar</li>
  </ul>
  
  ---
