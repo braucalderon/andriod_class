@@ -7,7 +7,7 @@
   <li>Each team has a button, when the user clicks to increment the score</li>
   <li>Show the updated score for the appropriate team</li>
   <li>Winner score is 5</li>
-  <li>The second activity will display the name of the winner and number of points that winner won by along with an image</li>
+  <li>The second activity will display the name of the winner, an image and number of points that winner won by</li>
  </ul>
  
  ## `Challenges`
