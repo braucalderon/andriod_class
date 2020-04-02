@@ -5,7 +5,6 @@
   <li>Radio button to select</li>
   <li>TextView to display per_person_total calculated</li>
   <li>Options Menu app bar</li>
-  <li></li>
  </ul>
  
 ### `Radio Buttons Options`
