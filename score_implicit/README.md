@@ -16,6 +16,7 @@
  </ul>
 
 
+---
 
 ![](score_counter1.gif)
 
