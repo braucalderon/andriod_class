@@ -16,6 +16,7 @@
   <li>Transferring data to the second activity as an Intent</li>
  </ul>
  
+ 
  ---
  
  ![](score_counter1.gif)
