@@ -23,7 +23,7 @@
  
  ### `Challenges`
  <ul>
-  <li>Spinner and App Bar<li>
+  <li>Spinner and App Bar</li>
   <li>Broke the code into peaces from the practice in the class room and started playing with it until I understood it. </li>
  </ul>
 
