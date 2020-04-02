@@ -13,9 +13,7 @@
  ### `Challenges`
  <ul>
   <li>Using the implicit intent to transfer information from one activity to another<li>
-  <li></li>
  </ul>
-
 ---
 
 ![](score_counter1.gif)
