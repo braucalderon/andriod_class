@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+<!--    <string name="next">Next</string>-->
+<!--    <string name="previous">Previous</string>-->
+
+
+
+<!--    Calculator variables-->
+    <string name="no_total_per_person">No (total per person)</string>
+    <string name="tip_tip_rounded_up">Tip (tip rounded up)</string>
+    <string name="total_total_rounded_up">Total (total rounded up)</string>
+    <string name="value">0.00</string>
+
+
+    <string-array name="labels_number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+<!-- menu_main actions-->
+    <string name="action_info">Info</string>
+    <string name="action_share">Share</string>
+    <string name="share_results">Share by texting friends the bill</string>
+    <string name="split_bill">Split the bill among friends</string>
+
+</resources>
