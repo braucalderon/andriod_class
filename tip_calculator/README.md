@@ -16,6 +16,7 @@
   <li>Most challenging was how to get a value from the seekbar</li>
  </ul>
  
+ 
  ---
  
  ![](calc1.gif)
