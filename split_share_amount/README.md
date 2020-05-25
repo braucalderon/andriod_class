@@ -23,7 +23,7 @@
  ### `Challenges`
  <ul>
   <li>Spinner and App Bar</li>
-  <li>Broke the code into pieces from the practice in the class room and started playing with it until I understood it. </li>
+  <li>The app only holds the values indicated in the result but it does not hold the buttons state when it rotates</li>
  </ul>
 
 
