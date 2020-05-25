@@ -1,7 +1,7 @@
 # Specifications
 <ul>
   
-  <li>A spinner to select the number of people, 1 as the default value</li>
+  <li>A spinner to select the number of people to share the bill, 1 as the default value</li>
   <li>Radio button to select</li>
   <li>TextView to display per_person_total calculated</li>
   <li>Options Menu app bar</li>
