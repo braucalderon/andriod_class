@@ -1,6 +1,6 @@
 # Specifications
 <ul>
-  <li>TipCalculator that allows the user to enter the bill amount via the virtual keyboard and then use the SeekBar to drag the Tip percentage and find out what the tip should be and the total.</li>
+  <li>Tip calculator that allows the user to enter the bill amount via the virtual keyboard and then use the SeekBar to drag the Tip percentage and find out what the tip should be and the total.</li>
  </ul>
  
 ### `App uses the following widgets`
