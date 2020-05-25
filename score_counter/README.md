@@ -12,8 +12,8 @@
  
  ## `Challenges`
  <ul>
-  <li>Understanding how the onRestoreInstanceState works</li>
-  <li>The implementation of explicit intent using data </li>
+  <li>The execution of onRestoreInstanceState</li>
+  <li>The implementation of explicit intent using data</li>
  </ul>
  
  
