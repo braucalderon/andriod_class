@@ -20,8 +20,7 @@
  
  ### `Challenges`
  <ul>
-  <li>The concept of the Broadcast into the app is not properly implemented which it is not working.<li>
-  
+  <li>The concept of the Broadcast into the app is not properly implemented which it is not working.</li>
  </ul>
 
 
