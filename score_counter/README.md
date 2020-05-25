@@ -13,7 +13,7 @@
  ## `Challenges`
  <ul>
   <li>Understanding how the onRestoreInstanceState works</li>
-  <li>Transferring data to the second activity as an Intent</li>
+  <li>The implementation of explicit intent using data </li>
  </ul>
  
  
