@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.foodieapp.MainActivity">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="10"
+        android:title="@string/menu_refresh"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_instructions"
+        android:orderInCategory="20"
+        android:title="@string/swipe_delete"
+        app:showAsAction="ifRoom"/>
+</menu>
