@@ -12,7 +12,8 @@
  
  ### `Challenges`
  <ul>
-  <li>Using the implicit intent to transfer information from one activity to another</li>
+  <li>The difference between explicit and implicit intents</li>
+  <li>The right execution to apply implicit intent</li>
  </ul>
 
 
