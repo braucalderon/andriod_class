@@ -20,7 +20,7 @@
  
  ### `Challenges`
  <ul>
-  <li>The implemeation of Broadcast could not be executed properly into the app.</li>
+  <li>The implementation of Broadcast could not be executed properly into the app.</li>
  </ul>
 
 
