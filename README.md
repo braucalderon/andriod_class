@@ -13,4 +13,3 @@
 <li>Store data using SQLite database</li> <br>
 <li>Work with Content Providers</li></ul> <br>
 
-## Each folder contains the name of each project as the class goes along
