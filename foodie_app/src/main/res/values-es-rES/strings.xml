@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="app_name">Foodie App</string>
+        <string name="menu_refresh">Refresh</string>
+        <string name="swipe_delete">Swipe delete</string>
+        <!--    Tab Menu-->
+
+
+
+        <!--    Description -->
+        <string-array name="food_info">
+        <item>The kids will come running when you serve-up this lightened version of a perennial favorite.
+            Ground turkey or chicken replaces the usual ground beef, and a fresh cucumber onion relish tops
+            it all off!</item>
+            <item>Adult and kid friendly, this fun pasta dish boasts loads of roasted salmon, fresh spring peas,
+            and oodles of flavorful dill. And any leftovers (if there are any!) make for a delicious lunch.</item>
+            <item>Looking for a meal that\'s both easy and healthy? You\'ve found it in this option with Brussels
+            sprouts and apple.</item>
+            <item>Made with cucumbers and salmon, this salad is as refreshing as it is easy to put together.
+            Add the toasted bread of your choice for a satisfying crunch.</item>
+            <item>Your summer dinners can be a breeze too. Either fire up the grill or use a grill plate to
+            create this warm-weather dish.</item>
+            <item>Your whole family will fall in love with these crispy chicken thighs (emphasis on "crispy").
+            Garlic and rosemary make them as aromatic as they are delicious.</item>
+            <item>No matter what you\'re serving as the entrée, this salad will complement it wonderfully
+            (or just top it with protein to be your main meal). It\'s filled with fresh vegetables, herbs, and a homemade dressing.</item>
+            <item>You and your significant other can tag team making this meal. While one person cooks the beans on the cast iron skillet,
+            someone else can char the hot dogs on an indoor or outdoor grill. After all, teamwork makes the dream work!</item>
+        </string-array>
+
+        <!--    Recipes-->
+        <string-array name="food_recipes">
+        <item>2 tbsp. olive oil "\n"1 medium yellow onion, chopped "\n"1 red bell pepper, chopped "\n"1 carrot, chopped
+            "\n"Kosher salt and freshly ground black pepper "\n"2 cloves garlic, pressed "\n"1 lb. lean ground turkey or chicken
+            "\n"1 tbsp. chili powder "\n"1/4 tsp. ground cinnamon "\n"1 (8-ounce) can tomato sauce "\n"1/4 c. sweet relish
+            "\n"2 tsp. Worcestershire sauce "\n"2 tbsp. red wine vinegar, divided "\n"3 Persian cucumbers, thinly sliced
+            "\n"1/2 c. thinly sliced red onion "\n"6 thick slices toast or split burger buns</item>
+            <item>Cooking spray"\n"12 oz. salmon fillets, skin removed"\n"1 tsp. whole coriander, crushed"\n"Kosher salt and freshly ground black pepper
+            "\n"1 lb. cavatappi or other short pasta"\n"8 oz. fresh or frozen English peas"\n"4 tbsp. unsalted butter, cut into pieces
+            "\n"1/2 yellow onion, chopped"\n"1/2 c. dry white wine"\n"3 tbsp. fresh dill, torn</item>
+            <item>3 tbsp. olive oil"\n"3 tbsp. fresh lemon juice"\n"1 1/2 tsp. pure honey"\n"Kosher salt and freshly ground black pepper
+            "\n"1 lb. Brussels sprouts, trimmed and thinly sliced"\n"1 large Gala apple, cut into matchsticks"\n"1 small shallot, chopped
+            "\n"1/4 c. toasted hazelnuts"\n"1 oz. Pecorino cheese, shaved</item>
+            <item>8 oz. country bread, torn"\n"2 tbsp. olive oil"\n"Kosher salt and black pepper"\n"4 Persian cucumbers
+            "\n"3 tbsp. red wine vinegar"\n"2 tbsp. olive oil"\n"1 tsp. caraway seeds"\n"1/4 red onion, sliced
+            "\n"1 small fennel bulb, sliced"\n"1 c. arugula"\n"Roasted salmon</item>
+            <item>6 sweet or spicy Italian sausages"\n"6 split rolls</item>
+            <item>1/3 c. chicken stock"\n"2 tbsp. fresh lemon juice"\n"1 tbsp. Dijon mustard"\n"1/4 tsp. red pepper flakes
+            "\n"Kosher salt and freshly-ground black pepper"\n"8 small bone-in, skin-on chicken thighs (about 2 1/4 pounds total)
+            "\n"8 cloves garlic, smashes and skins removed</item>
+            <item>1 ripe avocado"\n"1/4 c. fresh flat-leaf parsley"\n"3 tbsp. fresh tarragon"\n"1 tsp. lemon zest, plus 3 tablespoons lemon juice
+            "\n"3 tbsp. olive oil"\n"1 small clove garlic"\n"2 anchovy filets"\n"1 (.75-ounce) bunch fresh chives, divided
+            "\n"Kosher salt and freshly ground black pepper"\n"3 heads little gem lettuce or 1 small head green leaf lettuce, torn
+            "\n"3 Persian cucumbers or 1 English cucumber, sliced"\n"3 large tomatoes, cut into wedges</item>
+            <item>Canola oil, for grill grate"\n"1 tbsp. olive oil"\n"1 small onion, diced"\n"1 (15-ounce) can small white beans, rinsed
+            "\n"4 plum tomatoes, chopped"\n"2 cloves garlic, chopped"\n"2 tbsp. molasses"\n"Kosher salt and freshly ground black pepper
+            "\n"2 tsp. red wine vinegar"\n"2 tsp. Worcestershire sauce"\n"6 hot dogs"\n"6 hot dog buns
+            "\n"Ketchup, mustard, and relish for serving</item>
+        </string-array>
+
+        <!--    Name-->
+        <string-array name="food_name">
+            <item>Ground Turkey Sloppy Joes</item>
+            <item>Spring Pasta with Salmon, Peas, and Dill</item>
+            <item>Shaved Brussels Sprouts Salad</item>
+            <item>Cucumber-Salmon Panzanella</item>
+            <item>Grilled Sausages</item>
+            <item>Crispy Chicken Thighs With Garlic and Rosemary</item>
+            <item>Tossed Salad With Green Goddess Dressing</item>
+            <item>Hot Dogs With Quick Cast-Iron Beans</item>
+
+        </string-array>
+
+        <!--    image-->
+        <string-array name="food_image">
+            <item>@drawable/ground_turkey</item>
+            <item>@drawable/spring_pasta</item>
+            <item>@drawable/brussels_salad</item>
+            <item>@drawable/cucumber_salmon</item>
+            <item>@drawable/grilled_sausages</item>
+            <item>@drawable/crispy_chicken</item>
+            <item>@drawable/toseed_salad_green</item>
+            <item>@drawable/hoddogs_castironsbeans</item>
+        </string-array>
+
+
+
+</resources>

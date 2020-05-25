@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="10dp"
+    tools:context=".Detail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/detail_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:id="@+id/detail_textView_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:layout_below="@id/detail_imageView"/>
+
+            <TextView
+                android:id="@+id/detail_recipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recipe"
+                android:padding="10dp"
+                android:textSize="30dp"
+                android:layout_below="@id/detail_textView_title"/>
+
+            <TextView
+                android:id="@+id/detail_textViewRecipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="15dp"
+                android:layout_below="@id/detail_recipe"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Click here for more about the recipes"
+                android:layout_below="@id/detail_textViewRecipe"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="40dp"
+                android:padding="15dp"
+                android:onClick="website"
+                android:tint="@color/colorPrimaryDark"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.cardview.widget.CardView>
