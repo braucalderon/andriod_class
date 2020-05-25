@@ -2,7 +2,7 @@
 <ul>
   
   <li>Display removable items in a RecyclerView with the opportunity to click on a item</li>
-  <li>and be brought to a new activity that displays more details about the item clicked.</li>
+  <li>and be brought to a new activity that displays more details about the item.</li>
   <li>Be able to remove the item</li>
   <li>Be able to provide different layouts for devices and screen sizes</li>
   
