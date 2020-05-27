@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_dark_background"
+    android:layout_margin="35dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="20dp"
+    tools:context=".DetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/coronavirus"
+                android:adjustViewBounds="true"/>
+            <Button
+                android:id="@+id/button_mapCountry"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/image_detail"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:background="#08A293"
+                android:onClick="map_country"
+                android:text="Map it"/>
+
+            <TextView
+                android:id="@+id/textViewDetail_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_mapCountry"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:elevation="20dp"
+                android:textAllCaps="true"
+                android:textColor="#FF6D00"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/textViewDetail_countryCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewDetail_country"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/textViewDetail_infected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewDetail_countryCode"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/textViewDetail_cure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewDetail_infected"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/textViewDetail_death"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewDetail_cure"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/textViewDetail_newCases"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewDetail_death"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/textViewDetail_newDeaths"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewDetail_newCases"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/textViewDetail_recovered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewDetail_newDeaths"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+
+
+            <TextView
+                android:id="@+id/textViewDetail_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewDetail_recovered"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_back" />
+
+
+</androidx.cardview.widget.CardView>

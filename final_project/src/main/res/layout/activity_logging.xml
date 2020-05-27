@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="35dp"
+    android:scrollbars="vertical"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="20dp"
+    tools:context=".Logging">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+
+        <Button
+            android:id="@+id/createNotification"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/send_notification"
+            android:background="#FF6D00"
+            android:onClick="clickedButton" />
+
+        <Button
+            android:id="@+id/cancelNotification"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Cancel Notification"
+            android:background="#FF6D00"
+            android:onClick="cancelButton" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/createNotification"
+            android:layout_marginTop="20dp"
+            android:text="Corona Virus Symptoms"
+            android:textSize="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:background="@color/colorAccent" />
+
+        <CheckBox
+            android:id="@+id/chills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fever"
+            android:layout_marginTop="0dp"
+            android:text="@string/chills"
+            android:onClick="selectSympton"
+            />
+
+        <CheckBox
+            android:id="@+id/fever"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:text="@string/fever"
+            android:onClick="selectSympton"
+            />
+
+        <CheckBox
+            android:id="@+id/tasteOrSmell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/soreThroat"
+            android:layout_marginTop="0dp"
+            android:text="@string/new_loss_of_taste_or_smell"
+            android:onClick="selectSympton"/>
+
+        <CheckBox
+            android:id="@+id/soreThroat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/headache"
+            android:layout_marginTop="0dp"
+
+            android:text="@string/sore_throat"
+            android:onClick="selectSympton"/>
+
+        <CheckBox
+            android:id="@+id/headache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/musclePain"
+            android:layout_marginTop="0dp"
+            android:text="@string/headache"
+            android:onClick="selectSympton"/>
+
+        <CheckBox
+            android:id="@+id/musclePain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/repeatedShaking"
+            android:layout_marginTop="0dp"
+            android:text="@string/muscle_pain"
+            android:onClick="selectSympton"/>
+
+        <CheckBox
+            android:id="@+id/repeatedShaking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chills"
+            android:layout_marginTop="0dp"
+            android:text="@string/repeated_shaking_with_chills"
+            android:onClick="selectSympton"/>
+
+        <CheckBox
+            android:id="@+id/Diarrhea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tasteOrSmell"
+            android:layout_marginTop="0dp"
+            android:text="@string/diarrhea"
+            android:onClick="selectSympton"/>
+
+
+        <CheckBox
+            android:id="@+id/cough"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cough"
+            android:layout_below="@id/Diarrhea"
+            android:onClick="selectSympton"/>
+
+        <CheckBox
+            android:id="@+id/breath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shortness of Breath"
+            android:layout_below="@id/cough"
+            android:onClick="selectSympton" />
+
+        <CheckBox
+            android:id="@+id/troubleBreathing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/breath"
+            android:text="Trouble Breathing"
+            android:onClick="selectSympton"/>
+
+        <CheckBox
+            android:id="@+id/persistentPain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persistent pain or pressure in the chest"
+            android:layout_below="@id/troubleBreathing"
+            android:onClick="selectSympton"/>
+
+        <CheckBox
+            android:id="@+id/confusion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/persistentPain"
+            android:text="New confusion or inability ro arose"
+            android:onClick="selectSympton"/>
+
+        <CheckBox
+            android:id="@+id/bluishLips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/confusion"
+            android:text="Bluish lips or face"
+            android:onClick="selectSympton"/>
+
+
+        <Button
+            android:id="@+id/myButton"
+            android:layout_width="175dp"
+            android:layout_height="60dp"
+            android:text="Search For Hospital"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp"
+            android:background="#FF6D00"
+            android:onClick="searchMap" />
+        <Button
+            android:id="@+id/mycallButton"
+            android:layout_width="175dp"
+            android:layout_height="60dp"
+            android:text="Call Help Center"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp"
+            android:background="#FF6D00"
+            android:onClick="helpCenterButton" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_back" />
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:outlineAmbientShadowColor="@color/colorPrimaryDark"
+    android:outlineSpotShadowColor="@color/colorPrimaryDark"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="10dp">
+
+    <TextView
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="#08A293"
+        android:layout_gravity="right"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="#FF6D00"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView_infected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_country" />
+
+        <TextView
+            android:id="@+id/textView_cure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_infected" />
+
+        <TextView
+            android:id="@+id/textView_death"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_cure" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More Details"
+            android:layout_below="@id/textView_death"
+            android:paddingTop="5dp"
+            android:textColor="#FF6D00"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
