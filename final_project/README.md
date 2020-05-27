@@ -11,7 +11,7 @@
   <li>Broadcast</li>
   <li>Explicit and Implicit Intents</li>
   <li>Menu, Settings</li>
-  <li>API</li>
+  <li>External API</li>
   <li>Multiple layouts</li>
  </ul>
 
