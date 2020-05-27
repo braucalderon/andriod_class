@@ -11,8 +11,7 @@
     Package name:
     com.example.covidconnect
 
-    SHA-1 certificate fingerprint:
-    ED:ED:48:C5:55:6B:C3:A4:65:97:A3:47:59:9D:7D:AA:43:33:21:4F
+   
 
     Alternatively, follow the directions here:
     https://developers.google.com/maps/documentation/android/start#get-key
@@ -20,5 +19,5 @@
     Once you have your key (it starts with "AIza"), replace the "google_maps_key"
     string in this file.
     -->
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA8vRzAT-Uswrdcq6wou4g22ZfMFSopPTk</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false"></string>
 </resources>
