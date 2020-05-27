@@ -49,6 +49,10 @@ public class MainPage extends AppCompatActivity {
     private ItemTouchHelper helper;
     private static final int ERROR_DIALOG_REQUEST = 9001;
 
+    public MainPage(){
+
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -182,6 +186,12 @@ public class MainPage extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch(item.getItemId()){
+            case R.id.refresh:
+                Intent intent = new Intent(this, MainPage.class);
+                startActivity(intent);
+
+        }
         return super.onOptionsItemSelected(item);
     }
 } // end class
