@@ -15,9 +15,9 @@
   <li>Multiple layouts</li>
  </ul>
  
- ### `New Concepts to the application`
+ ### `New Concepts`
  <lu>
- <li>The integration of a map into the app</li>
+ <li>Integration of a map into the application</li>
  </ul>
 
  
