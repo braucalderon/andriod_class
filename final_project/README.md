@@ -8,7 +8,7 @@
   <li>GridLayoutManager</li>
   <li>ViewHolders</li>
   <li>CardLayout</li>
-  <li>Broadcast</li>
+  <li>Notification</li>
   <li>Explicit and Implicit Intents</li>
   <li>Menu, Settings</li>
   <li>External API</li>
