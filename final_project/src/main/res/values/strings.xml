@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="title_activity_main_page">Covid Connect</string>
+    <!-- Strings used for fragments for navigation -->
+
+
+    <string-array name="items_image">
+        <item>@drawable/coronavirus1</item>
+        <item>@drawable/coronavirus</item>
+    </string-array>
+
+    <!--    titles-->
+    <string-array name="items_titles">
+        <item>Global Pandemic Updates</item>
+        <item>Search by Country and date</item>
+
+    </string-array>
+
+    <!--    description-->
+    <string-array name="items_description">
+        <item>Click here for global pandemic update</item>
+        <item>Click here for specific search by country and month </item>
+
+    </string-array>
+
+    <string name="update">Click here for global pandemic update</string>
+
+    <string name="send_notification">CoronaVirus Notification</string>
+    <string name="fever">Fever</string>
+    <string name="chills">Chills</string>
+    <string name="repeated_shaking_with_chills">Repeated Shaking with Chills</string>
+    <string name="muscle_pain">Muscle Pain</string>
+    <string name="headache">Headache</string>
+    <string name="sore_throat">Sore Throat</string>
+    <string name="new_loss_of_taste_or_smell">New Loss of Taste or Smell</string>
+    <string name="diarrhea">Diarrhea</string>
+    <string name="cough">Cough</string>
+    <string name="title_activity_second_page">SecondPage</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

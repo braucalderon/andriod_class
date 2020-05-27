@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_background"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF6D00"
+        android:text="Covid Connect"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:padding="10dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_corona"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="25dp"
+        android:onClick="launchActivity"
+        app:cardElevation="50dp"
+        app:cardCornerRadius="20dp">
+        <ImageView
+            android:id="@+id/imageView_corona"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/coronavirus1"
+            android:layout_gravity="right"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/moreInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:elevation="20dp"
+            android:text="Stay informed with the latest Coronavirus Updates "
+            android:padding="10dp"
+            android:textColor="#FF6D00"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#08A293"
+            android:layout_gravity="bottom"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_search"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="25dp"
+        android:onClick="launchActivity"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/emergency" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="60dp"
+            android:text="COVID-19"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_gravity="bottom"
+            android:background="#08A293" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:padding="20dp"
+            android:text="Help Center"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</RelativeLayout>
