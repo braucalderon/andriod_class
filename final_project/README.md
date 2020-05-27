@@ -18,7 +18,7 @@
  
  ### `Challenges`
  <ul>
-  <li>The onSaveInstanceState method could not be applied properly throughout the entire application</li>
+  <li>The onSaveInstanceState method could not be applied properly throughout the entire application.</li>
   
  </ul>
 
