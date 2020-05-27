@@ -14,6 +14,11 @@
   <li>External API</li>
   <li>Multiple layouts</li>
  </ul>
+ 
+ ### `New Concepts to the application`
+ <lu>
+ <li>The integration of a map into the app</li>
+ </ul>
 
  
  ### `Challenges`
